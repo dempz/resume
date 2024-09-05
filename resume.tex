@@ -1,0 +1,215 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%https://www.overleaf.com/articles/resume-shubhi-rani-apr-2019/fhxzrkcmjzjp
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Zachary Dempsey}} & Email : \href{mailto:zacdempsey3@gmail.com}{zacdempsey3@gmail.com}\\
+  Mobile : +61 450 175 673 \\
+  %\href{https://github.com/shubhi28}{Github: https://github.com/shubhi28} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Western Australia}{Perth, Western Australia}
+      {Bachelor of Philosophy with First Class Honours in Mathematics \& Statistics}{Feb 2018\textendash Oct 2022}
+      
+	   {\small Mathematics \& Statistics and Finance \linebreak\vspace{0mm} \textit{WAM: 92.481; GPA: 6.963}}
+	   %\newline
+	   %{\scriptsize \textit{Courses: Static/Dynamic Optimisation, Numerical Analysis, Dynamical Systems, Nonlinear Dynamics and Chaos, Complex Systems}}
+	    
+	    
+    \resumeSubheading
+      {University of Manchester}{Manchester, United Kingdom}
+      {Exchange Programme;  GPA: 82.2/First Class}{Aug 2019\textendash Feb 2020}
+      
+    \resumeSubheading
+      {Mount Lawley Senior High School}{Perth, Western Australia}
+      {ATAR: 99.70}{Nov 2017}
+  \resumeSubHeadingListEnd
+  
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+    {Telethon Kids Institute}{Perth, Western Australia}
+    {Biostatistician}{Mar 2023\textendash Present}
+    \resumeItemListStart
+        \resumeItem{}{Operating in a consultative capacity to support students, researchers/research teams both internal and external to the Institute. Chiefly, consultations revolve around study design, data collection and management, and analysis across epidemiological, clinical and laboratory settings.}
+        \resumeItem{}{Engaged by a breadth of research teams and interests, spanning neonatal care, dentistry, psychology, population health and social sciences.}
+        \resumeItem{}{Extensive expertise with cleaning/wrangling, linking large and complex analytical data sets.}
+        \resumeItem{}{Written communication skills -- reporting of analytical results. Convey the output of robust statistical models in an easy to follow way.}
+        \resumeItem{}{Contribute to the Institute's biostatistics blog}
+        \resumeItem{}{Something about using R and using Rmarkdown, Quarto. Doing things under a reproducible research framework.}
+        \resumeItem{}{Contribute to the reintroduction of the Institute's Hacky Hour}
+        \resumeItem{}{Expanded quantitative toolbox with robust statistical methods to apply to complex data sets of various nature. Experience using hierarchical statistical models to account for complex nesting structure in a data set.}
+        \resumeItem{}{AI presentation? Using AI in statistical workflows?}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {AssetOwl Technologies}{Perth, Western Australia}
+    {Data Analyst/Research and Development Consultant}{Jul 2021\textendash Jul 2022}
+    \resumeItemListStart
+        \resumeItem{}{As the sole research and development consultant I focussed on using creative data analysis techniques to expand the Company's product offerings consistent with its growth strategy. Leveraging the visual inspection data collected by the Company's real estate visual inspection tool, I proposed two independent avenues for future expansion. A thorough R\&D report was delivered; it detailed the current state of the industry, relevant existing applications in other industries (e.g. engineering) and the mathematical/computational techniques used for analysis.}
+        \resumeItem{}{Liased between management, the engineering and finance teams to identify the unique contributions to the industry's state of knowledge/available commerical products. By concisely communicating each of the novel projects to AusIndustry, the Company was able to apply for the best possible research and development subsidies.}
+        \resumeItem{}{Able to communicate research progress, technical details and recommendations accurately and concisely in both verbal and in written report form to managers and the Company's Board of Directors.}
+    \resumeItemListEnd
+      
+    \resumeSubheading
+		{Giant Cannington}{Perth, Western Australia}
+		{Salesperson/Assistant Bicycle Mechanic}{Jul 2020\textendash Feb 2022}
+		\resumeItemListStart
+        \resumeItem{}{Bicycle salesperson, ranging from entry- to high-level competition road and mountain bicycles, to suit each customer's requirements.}
+        \resumeItem{}{Competent in diagnosing problems, making recommendations on faults, and servicing all types of bicycles.}
+        \resumeItem{}{Experience in coordinating with supplier representatives and state-wide warehouse distribution center for Giant Bicycles Australia on new products, developments, and special-order items.}
+        \resumeItem{}{Experience in operating point-of-sales system, including cash management, and the opening and closing of the till.}
+        \resumeItem{}{Given stock taking responsibilities, consistent with store policies, utilizing the inventory function of the store’s point-of-sales system.}
+        \resumeItem{}{Able to actively and enthusiastically participate and coordinate in a team-working environment. Ongoing responsibilities included the training of junior staff members in sales, technical and general retail skills.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {University of Western Australia}{Perth, Western Australia}
+    {STAT1520 Laboratory Facilitator}{Jun 2021\textendash Nov 2021}
+    \resumeItemListStart
+    \resumeItem{}{Facilitator of laboratories for STAT1520: Economics and Business Statistics for the School of Mathematics and Statistics. The unit establishes a foundational understanding in discrete and continuous random variables, sampling, ANOVA and univariate and multivariate regression techninques.}
+    \resumeItem{}{Coordinated multiple in-person classes each week, coaching students of a non-science background through a range of fundamental and extension questions aimed to develop their skills in fundamental statistical analysis techniques.}
+    \resumeItem{}{Marker of assessment items (tests, exams).}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {University of Western Australia}{Perth, Western Australia}
+    {Research Assistant, Department of Mathematics and Statistics}{Jul 2020\textendash Nov 2020}
+    \resumeItemListStart
+    \resumeItem{}{Part of the Complex Systems research team at the University with mentor Dr. Thomas Stemler. Investigated how complex network methods can be leveraged with respect to nonlinear time series analysis.}
+    \resumeItem{}{Learned algorithmic methods in Julia for detecting critical transitions in coupled dynamical systems, as well as how to communicate findings and articulate questions to academic staff.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+    {UWA Student Managed Investment Fund (SMIF)}{Perth, Western Australia}
+    {Equity Analyst}{Jun 2018\textendash Aug 2020}
+    \resumeItemListStart
+    \resumeItem{}{Conducted qualitative and quantitative research on ASX-listed companies in accordance with the fund’s philosophies to prepare and pitch recommendations to professional fund managers at Viburnum Funds.}
+    \resumeItem{}{Experience researching within agribusiness, insurance construction, litigation funding and retail industries.}
+    \resumeItem{}{Conducted qualitative analysis of competitive landscapes, industries and business, revenue and cost figures, acquisition trends, contractual terms, and regulatory risk.}
+    \resumeItem{}{Input in the construction of company valuation models like discounted cash flow and comparable companies/transactions based on qualitative research findings.}
+    \resumeItemListEnd
+    
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Academic Projects}
+\resumeSubHeadingListStart
+\resumeSubheading
+    {Honours Dissertation}{Perth, Western Australia}
+    {Title: Ordinal Partition Network-of-Networks for Paleoclimate Analysis}{Feb 2022\textendash Oct 2022}
+    \resumeItemListStart
+    \resumeItem{}{Supervised by Dr. Thomas Stemler.}
+    \resumeItem{}{Creatively combined independent concepts of complex systems theory into a novel technique for analysing coupled nonlinear systems. Specifically, ordinal partition networks were combined with the multi-layer ``network-of-networks'' structure. This construction generalised existing ordinal partition network techniques to multivariate time series data. In doing so, our contribution to literature is a powerful and efficient tool for analysing the interactions between \emph{multiple} variables of a \emph{nonlinear} time series whereby complex coupling relationships manifest in the topology of the multi-layer network.}
+    \resumeItem{}{The method was successful in identifying sensitive coupling transitions between simulated and real-world (paleoclimate) nonlinear systems. A monsoon strength proxy was extracted from a paleoclimate reanalysis dataset to analyse the couplings between East Asian-Indonesian-Australian Summer Monsoon regions. The transition points identified were robust with respect to artificial noise corruption. Our method returns marked transition points in regional monsoon coupling strengths coincident with established local climate events (volcanic eruptions, droughts).}
+    \resumeItem{}{The project's salient theory, data structures and results were presented in a 30-minute seminar intended for a non-specialist mathematical audience.}
+    \resumeItem{}{The project was constructed in its entirety using the base functionalities of Python.}
+    
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills/Interests}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Programming Languages: }{Python, Julia, R}
+	\resumeSubItem{Tools: }{Matlab, Wolfram Mathematica, RStudio, Rmarkdown, Quarto, Git, Microsoft Office (Word, Powerpoint, Excel)}
+	\resumeSubItem{Courses: }{Linear Programming, Calculus of Variations, Optimal Control, Numerical Analysis, Dynamical Systems, Nonlinear Dynamics and Chaos, Complex Systems, Investment Analysis, Applied Financial Management, Financial Derivatives, Statistical Analysis, Statistical Consulting, Biostatistics}
+	\resumeSubItem{Interests: }{Road cycling, vintage vehicle restoration, nonlinear time series analysis, data visualisation}
+\resumeSubHeadingListEnd
+
+%-----------Awards-----------------
+\section{Honours and Awards}
+\begin{description}[font=$\bullet$]
+\item {Wesfarmers Business Development Prize (Jul 2021)} 
+\item {Frank Gamblen Scholarship in Mathematics (Sep 2019)}
+\item {Nicholas Searcy Prize in Multivariable Calculus (Mar 2019)}
+\item {Ronald and Irene Searcy Prize in Mathematical Methods and Theory (Mar 2019)}
+\item {Mount Lawley Senior High School WACE Year 12 ATAR DUX (Nov 2017)}
+\end{description}
+%-------------------------------------------
+\end{document}

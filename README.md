@@ -1,3 +1,3 @@
 # Job search materials
 
-Resume and submitted cover lettering
+Repo for my resume and cover letters.
